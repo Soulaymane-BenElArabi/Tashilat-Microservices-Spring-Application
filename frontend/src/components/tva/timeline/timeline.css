@@ -1,0 +1,44 @@
+.element1 {
+    animation: pulse1 4s infinite;
+  }
+  
+  @keyframes pulse1 {
+    0% {
+      color: #ffa726;
+      stroke: #ffa726;
+    
+    }
+    100% {
+        color: #e65100;
+        stroke: #e65100;
+    }
+  }
+ 
+.element2 {
+    animation: pulse2 4s infinite;
+  }
+  
+  @keyframes pulse2 {
+    0% {
+    color: #FFEB3B;
+    stroke: #FFEB3B;
+    }
+    100% {
+        color: #f9a825;
+        stroke: #f9a825;
+    }
+  }
+  .element3 {
+    animation: pulse3 4s infinite;
+  }
+  
+  @keyframes pulse3 {
+    0% {
+    color: #00e676;
+    stroke: #00e676;
+    }
+    100% {
+        color: #1b5e20;
+        stroke: #1b5e20;
+    }
+  } 

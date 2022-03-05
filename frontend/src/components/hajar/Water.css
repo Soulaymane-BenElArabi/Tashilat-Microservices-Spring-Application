@@ -1,0 +1,307 @@
+
+.form-group{
+  box-sizing:border-box;
+    margin-bottom: -5px;
+    
+}
+#rowContainerDiv{
+    margin-top: -20px;
+    
+}
+#chart{
+    margin-top: 50px;
+}
+
+.registration-form{
+  margin-top: 70px;
+   padding: -30px 0; /*wholo form*/
+  
+}
+
+.registration-form form{
+    
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .form-icon{
+	text-align: center;
+    background-color: #5891ff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 5px 10px;
+    margin: 5px;       /*space between input*/
+}
+
+.registration-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+
+
+
+
+
+
+
+@media screen{
+ 
+ 
+  
+
+}
+
+  
+  
+  
+  
+  
+#waterBils{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;;
+    font-size: 40px;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    color: #0F00FF;
+    font-weight: 700;
+    text-decoration: underline solid #0F00FF;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    }
+
+    #details{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 30px;
+        letter-spacing: -1px;
+        word-spacing: 6px;
+        color: #000000;
+        font-weight: 700;
+        text-decoration: underline solid #000000;
+        font-style: italic;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        }
+
+#yearschoice{
+margin-left: -25px;
+  
+}
+
+#inputdiv{
+  margin-left: 300px;
+}
+
+        #imgbutton{
+          
+          height: 50px;
+          width: 60px;
+          margin-top: 20px;
+          margin-left: 90px !important;
+          
+        
+        }
+  button.print-button {
+   
+    width: 50px;
+    height: 60px;
+  }
+  span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+    border: solid 4px #C9CCD5;
+  }
+  span.print-icon::after {
+    border-width: 2px;
+  }
+  
+  button.print-button {
+    position: relative;
+    padding: 0;
+    border: 0;
+    
+    border: none;
+    background: transparent;
+  }
+  
+  span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  span.print-icon {
+    position: relative;
+    display: inline-block;  
+    padding: 0;
+    margin-top: 20%;
+  
+    width: 60%;
+    height: 35%;
+    background: #fff;
+    border-radius: 20% 20% 0 0;
+  }
+  
+  span.print-icon::before {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 12%;
+    right: 12%;
+    height: 110%;
+  
+    transition: height .2s .15s;
+  }
+  
+  span.print-icon::after {
+    content: " ";
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    right: 12%;
+    height: 0%;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+    background-position: center;
+    background-image: linear-gradient(
+      to top,
+      #fff 0, #fff 14%,
+      #333 14%, #333 28%,
+      #fff 28%, #fff 42%,
+      #333 42%, #333 56%,
+      #fff 56%, #fff 70%,
+      #333 70%, #333 84%,
+      #fff 84%, #fff 100%
+    );
+  
+    transition: height .2s, border-width 0s .2s, width 0s .2s;
+  }
+  
+  button.print-button:hover {
+    cursor: pointer;
+  }
+  
+  button.print-button:hover .print-icon::before {
+    height:0px;
+    transition: height .2s;
+  }
+  button.print-button:hover .print-icon::after {
+    height:120%;
+    transition: height .2s .15s, border-width 0s .16s;
+  }
+
+
+
+  .group 			  { 
+    position:relative; 
+    margin-bottom:45px; 
+    font-family:'Roboto';
+    width:100px; 
+    margin: auto 0; 
+    display:block; 
+    padding:10px 20px 20px;
+  }
+  .input 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:2px solid powderblue;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  input:focus 		{ outline:none; }
+  
+  /* LABEL ======================================= */
+  .label 				 {
+    color:#5264AE;
+   font-size:14px;
+   font-weight:normal;
+   position:absolute;
+   pointer-events:none;
+   left:5px;
+   top:-10px;
+ 
+ }
+  /*electrecity*/
+
+  
+  .groupelec 			  { 
+    position:relative; 
+    margin-bottom:45px; 
+    font-family:'Roboto';
+    width:100px; 
+    margin: auto 0; 
+    display:block; 
+    padding:10px 20px 20px;
+  }
+  .inputelec 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:2px solid #FEECE9;
+    background-color: rgba(185, 52, 52, 0);
+  }
+  input:focus 		{ outline:none; }
+  
+  /* LABEL ======================================= */
+  .labelelec 				 {
+    color:#F9D371;
+   font-size:14px;
+   font-weight:normal;
+   position:absolute;
+   pointer-events:none;
+   left:5px;
+   top:-10px;
+ 
+ }
+  
+  /*year----------------*/
+  
+  .inputyear 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:100px;
+    border:none;
+    border-bottom:2px solid #FFAB76;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  input:focus 		{ outline:none; }
+  
+  /* BOTTOM BARS ================================= */
+  
